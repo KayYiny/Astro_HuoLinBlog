@@ -1,49 +1,43 @@
 
-This website is built with the **Astro** framework using the [HuoLinBlog](https://github.com/LyraVoid/HuoLinBlog) theme.
+# 👋 嘿，我是 PuppyHuoLin！
 
-::github{repo="LyraVoid/HuoLinBlog"}
+欢迎来到我的小窝～
 
-## 🌟 Theme Features
+## 🐾 关于我
 
-### 🎨 Design & User Experience
-- **Modern & Elegant Design** - Clean, minimalist interface with beautiful typography
-- **Fully Responsive** - Optimized for all devices from mobile to desktop
-- **Dark/Light Mode** - Automatic theme switching with smooth transitions
-- **Beautiful Typography** - Enhanced readability with JetBrains Mono font
-- **Smooth Animations** - Fluid page transitions and interactive elements
+📍 福建厦门的一名学生
 
-### 🔍 Content & Search
-- **Advanced Search** - Powered by [Pagefind](https://pagefind.app/) for fast, accurate results
-- **Enhanced Markdown** - Extended syntax with code highlighting and math support
-- **Interactive Table of Contents** - Auto-scroll navigation for long articles
-- **RSS Feed Generation** - Stay updated with automatic feed generation
-- **Reading Time Estimation** - Know how long articles take to read
-- **Post Categorization** - Organize content with tags and categories
+喜欢的事情：
+- 🎮 **游戏** — 什么游戏都玩，杂食党，从 3A 大作到独立小品都来者不拒
+- ⚙️ **折腾** — 折腾各种软硬件，服务器、路由器、代码…折腾就是我的快乐源泉
+- 🎵 **音游** — 节奏游戏爱好者，手指停不下来的那种
+- 🐕 **Furry** — 毛茸茸的就是最好的！这个世界不能没有小狗
+- 💾 **NAS** — 折腾存储和家庭服务器
+- 📺 **番剧** — 看的不多，但偶尔也会追一追
 
+至于一些小小的个人偏好嘛…
 
+✨ 对那些包裹着身体的光滑质感情有独钟，
+✨ 对那些若隐若现的线条美有着独特的欣赏，
+✨ 对那些纯洁的白色总是多看几眼。
 
-### 📱 Special Pages
-- **Anime Tracking Page** - Track your anime watching progress with ratings
-- **Friends Links Page** - Showcase friend websites with beautiful cards
-- **Diary/Moments Page** - Share life moments like social media posts
-- **Archive Page** - Organized timeline view of all posts
-- **About Page** - Customizable personal introduction (this page!)
+怎么说呢，审美的事情，能算 XP 吗？（笑）
 
-### 🛠 Technical Features
-- **Enhanced Code Blocks** - Powered by [Expressive Code](https://expressive-code.com/)
-- **Math Support** - LaTeX rendering with KaTeX for mathematical expressions
-- **Image Optimization** - PhotoSwipe gallery with lazy loading
-- **SEO Optimized** - Built-in sitemap and meta tags for better search visibility
-- **Performance Optimized** - Fast loading with caching and optimization
-- **Comment System Ready** - Integration support for Twikoo comments
+## 🌐 关于网站
 
-### 🎯 Advanced Markdown Features
-- **Callouts & Admonitions** - Beautiful info boxes with `> [!NOTE]`, `> [!TIP]`, `> [!WARNING]`
-- **Mathematical Equations** - Write LaTeX math with `$inline$` and `$$block$$` syntax
-- **GitHub Cards** - Embed repository cards with `::github{repo="user/repo"}`
-- **Syntax Highlighting** - Advanced code highlighting with line numbers
-- **Copy Code Buttons** - Easy code copying functionality
+这是一个大杂烩网站，没有什么固定的主题，我感兴趣的东西都会出现在这里：
+
+- 💻 **项目代码** — 我做的一些小项目和折腾记录
+- 🎮 **游戏相关** — 游戏评测、攻略、或者就是单纯想聊聊
+- 🐾 **Furry 世界** — 毛茸茸的快乐分享
+- 📝 **生活碎片** — 一些零碎的日常和想法
+- 🔧 **折腾笔记** — 各种软硬件折腾的经验
+
+网站还在慢慢完善中，内容会越来越多的（大概）。
+
+用 [Astro](https://astro.build/) + [Mizuki](https://docs.mizuki.mysqil.com/) 主题搭建，
+如果你也对这些奇奇怪怪的东西感兴趣，欢迎常来逛逛～
 
 ---
 
-*Built with ❤️ using Astro and inspired by modern web design principles.*
+*Built with ❤️ by PuppyHuoLin*
