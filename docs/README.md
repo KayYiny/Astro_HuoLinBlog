@@ -1,6 +1,6 @@
-# Mizuki 文档索引
+# HuoLinBlog 文档索引
 
-欢迎查阅 Mizuki 的详细文档！
+欢迎查阅 HuoLinBlog 的详细文档！
 
 ## 📚 文档列表
 
@@ -103,7 +103,7 @@ docs/
 
 ## 🤝 需要帮助？
 
-- 查看 [GitHub Issues](https://github.com/LyraVoid/Mizuki/issues)
+- 查看 [GitHub Issues](https://github.com/PuppyHuoLin/Astro_HuoLinBlog/issues)
 - 阅读相关文档的故障排查章节
 - 运行 `pnpm run check-env` 检查配置
 

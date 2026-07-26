@@ -79,12 +79,12 @@ declare global {
 		renderMermaidDiagrams?: () => void;
 
 		// Sidebar manager window properties
-		__mizukiSidebarResizeHandler?: () => void;
-		__mizukiSidebarSwupHooked?: boolean;
-		__mizukiSidebarManagerInitialized?: boolean;
-		__mizukiRightSidebarResizeHandler?: () => void;
-		__mizukiRightSidebarSwupHooked?: boolean;
-		__mizukiRightSidebarManagerInitialized?: boolean;
+		__huolinSidebarResizeHandler?: () => void;
+		__huolinSidebarSwupHooked?: boolean;
+		__huolinSidebarManagerInitialized?: boolean;
+		__huolinRightSidebarResizeHandler?: () => void;
+		__huolinRightSidebarSwupHooked?: boolean;
+		__huolinRightSidebarManagerInitialized?: boolean;
 
 		// Panel manager
 		panelManager?: unknown;

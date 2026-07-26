@@ -1,6 +1,6 @@
-# 🌸 Mizuki
+# 🌸 HuoLinBlog
 
-<img align='right' src='logo.png' width='200px' alt="Mizuki logo">
+<img align='right' src='logo.png' width='200px' alt="HuoLinBlog logo">
 
 一个现代化、功能丰富的静态博客模板，基于 [Astro](https://astro.build) 构建，具有先进的功能和精美的设计。
 
@@ -10,16 +10,16 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-6.0.3-blue)](https://www.typescriptlang.org/)
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg?logo=apache)](https://opensource.org/licenses/Apache-2.0)
 
-[**🖥️ 在线演示**](https://mizuki.mysqil.com/) | [**📝 用户文档**](https://docs.mizuki.mysqil.com/)
+[**🖥️ 在线演示**](https://huolin.puppyis.cool/) | [**📝 用户文档**](https://huolin.puppyis.cool/)
 
 🌏 **README 语言:**
 [**English**](./README.md) / [**中文**](./README.zh.md) / [**日本語**](./README.ja.md) / [**繁體中文**](./README.tw.md) /
 
 通过我们的综合文档快速开始。无论是自定义主题、配置功能，还是部署到生产环境，文档涵盖了您成功启动博客所需的所有内容。
 
-[📚 阅读完整文档](https://docs.mizuki.mysqil.com/) →
+[📚 阅读完整文档](https://huolin.puppyis.cool/) →
 
-![Mizuki Preview](./README.webp)
+![HuoLinBlog Preview](./README.webp)
 
 <table>
   <tr>
@@ -116,8 +116,8 @@
 1. **克隆仓库：**
 
    ```bash
-   git clone https://github.com/LyraVoid/Mizuki.git
-   cd Mizuki
+   git clone https://github.com/PuppyHuoLin/Astro_HuoLinBlog.git
+   cd HuoLinBlog
    ```
 
 2. **安装依赖：**
@@ -225,7 +225,7 @@ comment: false # 禁用评论
 
 ## 🧩 Markdown 扩展语法
 
-Mizuki 支持超越标准 GitHub Flavored Markdown 的增强功能：
+HuoLinBlog 支持超越标准 GitHub Flavored Markdown 的增强功能：
 
 ### 📝 增强写作
 
@@ -297,7 +297,7 @@ export const siteConfig: SiteConfig = {
 
 ### 📦 代码内容分离 (可选)
 
-Mizuki 支持将代码和内容分成两个独立的仓库管理,适合团队协作和大型项目。
+HuoLinBlog 支持将代码和内容分成两个独立的仓库管理,适合团队协作和大型项目。
 
 **快速选择**:
 
@@ -319,7 +319,7 @@ cp .env.example .env
 
 # 2. 编辑 .env,启用内容分离
 ENABLE_CONTENT_SYNC=true
-CONTENT_REPO_URL=https://github.com/your-username/Mizuki-Content.git
+CONTENT_REPO_URL=https://github.com/your-username/HuoLinBlog-Content.git
 
 # 3. 同步内容
 pnpm run sync-content
@@ -366,19 +366,19 @@ pnpm run sync-content
 
 - **[Fuwari](https://github.com/saicaca/fuwari)** by saicaca - 本项目所基于的原始模板。感谢您创建了如此漂亮且功能强大的模板。
 - **[Yukina](https://github.com/WhitePaper233/yukina)** - 感谢提供设计灵感和创意，帮助塑造了这个项目。Yukina 是一个优雅的博客模板，展现了出色的设计原则和用户体验。
-- **[Firefly](https://github.com/CuteLeaf/Firefly)** - 感谢提供优秀的布局设计思路，双侧边栏布局、文章双列网格等布局，及部分小组件的设计与实现，让 Mizuki 的界面更加丰富。
-- **[Twilight](https://github.com/spr-aachen/Twilight)** - 感谢提供灵感和技术支持。Twilight 的动态壁纸模式切换系统、响应式设计和过渡效果显著提升了 Mizuki 的使用体验。
+- **[Firefly](https://github.com/CuteLeaf/Firefly)** - 感谢提供优秀的布局设计思路，双侧边栏布局、文章双列网格等布局，及部分小组件的设计与实现，让 HuoLinBlog 的界面更加丰富。
+- **[Twilight](https://github.com/spr-aachen/Twilight)** - 感谢提供灵感和技术支持。Twilight 的动态壁纸模式切换系统、响应式设计和过渡效果显著提升了 HuoLinBlog 的使用体验。
 
 ## 🍀 贡献者
 
-感谢以下贡献者对本项目做出的贡献，如有问题或建议，请提交 [Issue](https://github.com/LyraVoid/Mizuki/issues) 或 [Pull Request](https://github.com/LyraVoid/Mizuki/pulls)。
+感谢以下贡献者对本项目做出的贡献，如有问题或建议，请提交 [Issue](https://github.com/PuppyHuoLin/Astro_HuoLinBlog/issues) 或 [Pull Request](https://github.com/PuppyHuoLin/Astro_HuoLinBlog/pulls)。
 
-<a href="https://github.com/LyraVoid/Mizuki/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=LyraVoid/Mizuki" />
+<a href="https://github.com/PuppyHuoLin/Astro_HuoLinBlog/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=PuppyHuoLin/Astro_HuoLinBlog" />
 </a>
 
 ## ⭐ Star History
 
-## [![Star History Chart](https://api.star-history.com/svg?repos=LyraVoid/Mizuki&type=Date)](https://star-history.com/#LyraVoid/Mizuki&Date)
+## [![Star History Chart](https://api.star-history.com/svg?repos=PuppyHuoLin/Astro_HuoLinBlog&type=Date)](https://star-history.com/#PuppyHuoLin/Astro_HuoLinBlog&Date)
 
 ⭐ 如果您觉得这个项目有帮助，请考虑给它一个星标!

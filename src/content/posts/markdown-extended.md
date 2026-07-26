@@ -2,9 +2,9 @@
 title: Markdown Extended Features
 published: 2024-05-01
 updated: 2024-11-29
-description: 'Read more about Markdown features in Mizuki'
+description: 'Read more about Markdown features in HuoLinBlog''
 image: ''
-tags: [Demo, Example, Markdown, Mizuki]
+tags: [Demo, Example, Markdown, HuoLinBlog]
 category: 'Examples'
 draft: false 
 ---
@@ -12,12 +12,12 @@ draft: false
 ## GitHub Repository Cards
 You can add dynamic cards that link to GitHub repositories, on page load, the repository information is pulled from the GitHub API. 
 
-::github{repo="LyraVoid/Mizuki"}
+::github{repo="PuppyHuoLin/Astro_HuoLinBlog"}
 
-Create a GitHub repository card with the code `::github{repo="LyraVoid/Mizuki"}`.
+Create a GitHub repository card with the code `::github{repo="PuppyHuoLin/Astro_HuoLinBlog"}`.
 
 ```markdown
-::github{repo="LyraVoid/Mizuki"}
+::github{repo="PuppyHuoLin/Astro_HuoLinBlog"}
 ```
 
 ## Admonitions

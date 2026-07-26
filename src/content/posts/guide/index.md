@@ -1,9 +1,9 @@
 ---
-title: Simple Guides for Mizuki
+title: Simple Guides for HuoLinBlog
 published: 2024-04-01
 description: "How to use this blog template."
 image: "./cover.webp"
-tags: ["Mizuki", "Blogging", "Customization"]
+tags: ["HuoLinBlog", "Blogging", "Customization"]
 category: Guides
 draft: false
 ---

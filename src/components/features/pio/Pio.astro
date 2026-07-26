@@ -81,7 +81,7 @@ const isRight = config.position === "right";
 		) => void;
 	};
 
-	const win = window as Window & { __mizukiPioController?: PioController };
+	const win = window as Window & { __huolinPioController?: PioController };
 	const PIO_MOBILE_BREAKPOINT = 768;
 	const scriptEl = document.currentScript as HTMLScriptElement | null;
 	const renderedEl =
@@ -103,7 +103,7 @@ const isRight = config.position === "right";
 		const config = JSON.parse(configSource.dataset.config || "{}");
 		const hiddenOnMobile = configSource.dataset.hiddenOnMobile === "true";
 
-		if (!win.__mizukiPioController) {
+		if (!win.__huolinPioController) {
 			const menuActions: Record<string, () => void> = {
 				home: () => (window.location.href = "/"),
 				scrollToTop: () => window.scrollTo({ top: 0, behavior: "smooth" }),
@@ -206,7 +206,7 @@ const isRight = config.position === "right";
 				});
 			}
 
-			win.__mizukiPioController = {
+			win.__huolinPioController = {
 				update(nextEl, nextConfig, nextHiddenOnMobile) {
 					const isNewFrame = currentEl !== nextEl;
 					const nextConfigKey = JSON.stringify(nextConfig);
@@ -231,6 +231,6 @@ const isRight = config.position === "right";
 			};
 		}
 
-		win.__mizukiPioController.update(el, config, hiddenOnMobile);
+		win.__huolinPioController.update(el, config, hiddenOnMobile);
 	}
 </script>

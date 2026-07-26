@@ -1,7 +1,7 @@
 
-This website is built with the **Astro** framework using the [Mizuki](https://github.com/LyraVoid/Mizuki) theme.
+This website is built with the **Astro** framework using the [HuoLinBlog](https://github.com/LyraVoid/HuoLinBlog) theme.
 
-::github{repo="LyraVoid/Mizuki"}
+::github{repo="LyraVoid/HuoLinBlog"}
 
 ## 🌟 Theme Features
 

@@ -21,16 +21,16 @@ export interface Project {
 
 export const projectsData: Project[] = [
 	{
-		id: "mizuki",
-		title: "Mizuki",
+		id: "huolin-blog",
+		title: "HuoLinBlog",
 		description:
 			"A next-gen Material Design 3 blog theme built with Astro, featuring i18n, dark mode, and responsive design.",
-		image: "/assets/projects/mizuki.webp",
+		image: "/assets/projects/huolin-blog.webp",
 		category: "web",
 		techStack: ["Astro", "TypeScript", "Tailwind CSS", "Svelte"],
 		status: "completed",
-		sourceCode: "https://github.com/LyraVoid/Mizuki",
-		visitUrl: "https://mizuki.mysqil.com",
+		sourceCode: "https://github.com/PuppyHuoLin/Astro_HuoLinBlog",
+		visitUrl: "https://huolin.puppyis.cool",
 		startDate: "2024-01-01",
 		endDate: "2024-06-01",
 		featured: true,

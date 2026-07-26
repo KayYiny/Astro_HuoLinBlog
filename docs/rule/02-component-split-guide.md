@@ -829,7 +829,7 @@ import Avatar from '../../atoms/Avatar.astro'
 <WidgetLayout name="个人资料" icon="material-symbols:person">
   <Avatar src="/avatar.png" size="lg" />
   <div class="profile-info">
-    <h4>Mizuki</h4>
+    <h4>HuoLinBlog</h4>
     <p>前端开发者</p>
   </div>
 </WidgetLayout>
@@ -1388,7 +1388,7 @@ find . -name "*.svelte" -o -name "*.astro" | wc -l
 ---
 
 **最后更新**: 2026-03-17
-**维护者**: Mizuki 开发团队
+**维护者**: HuoLinBlog 开发团队
 
 ## 参考资源
 

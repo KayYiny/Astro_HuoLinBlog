@@ -1,6 +1,6 @@
-# 🌸 Mizuki
+# 🌸 HuoLinBlog
 
-<img align='right' src='logo.png' width='200px' alt="Mizuki logo">
+<img align='right' src='logo.png' width='200px' alt="HuoLinBlog logo">
 
 A modern, feature-rich static blog template built with [Astro](https://astro.build), featuring advanced functionality and beautiful design.
 
@@ -10,16 +10,16 @@ A modern, feature-rich static blog template built with [Astro](https://astro.bui
 [![TypeScript](https://img.shields.io/badge/TypeScript-6.0.3-blue)](https://www.typescriptlang.org/)
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg?logo=apache)](https://opensource.org/licenses/Apache-2.0)
 
-[**🖥️ Live Demo**](https://mizuki.mysqil.com/) | [**📝 Documentation**](https://docs.mizuki.mysqil.com/)
+[**🖥️ Live Demo**](https://huolin.puppyis.cool/) | [**📝 Documentation**](https://huolin.puppyis.cool/)
 
 🌏 **README Languages:**
 [**English**](./README.md) / [**中文**](./README.zh.md) / [**日本語**](./README.ja.md) / [**繁體中文**](./README.tw.md) /
 
 Get started quickly with our comprehensive documentation. Whether you're customizing your theme, configuring features, or deploying to production, the documentation covers everything you need to launch your blog successfully.
 
-[📚 Read Full Documentation](https://docs.mizuki.mysqil.com/) →
+[📚 Read Full Documentation](https://huolin.puppyis.cool/) →
 
-![Mizuki Preview](./README.webp)
+![HuoLinBlog Preview](./README.webp)
 
 <table>
   <tr>
@@ -116,8 +116,8 @@ Get started quickly with our comprehensive documentation. Whether you're customi
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/LyraVoid/Mizuki.git
-   cd Mizuki
+   git clone https://github.com/PuppyHuoLin/Astro_HuoLinBlog.git
+   cd HuoLinBlog
    ```
 
 2. **Install dependencies:**
@@ -224,7 +224,7 @@ This feature requires the comment system to be enabled in `src/config.ts` first.
 
 ## 🧩 Markdown Extensions
 
-Mizuki supports enhanced features beyond standard GitHub Flavored Markdown:
+HuoLinBlog supports enhanced features beyond standard GitHub Flavored Markdown:
 
 ### 📝 Enhanced Writing
 
@@ -296,7 +296,7 @@ export const siteConfig: SiteConfig = {
 
 ### 📦 Code-Content Separation (Optional)
 
-Mizuki supports separating code and content into two independent repositories, suitable for team collaboration and large projects.
+HuoLinBlog supports separating code and content into two independent repositories, suitable for team collaboration and large projects.
 
 **Quick Selection**:
 
@@ -318,7 +318,7 @@ cp .env.example .env
 
 # 2. Edit .env to enable content separation
 ENABLE_CONTENT_SYNC=true
-CONTENT_REPO_URL=https://github.com/your-username/Mizuki-Content.git
+CONTENT_REPO_URL=https://github.com/your-username/HuoLinBlog-Content.git
 
 # 3. Sync content
 pnpm run sync-content
@@ -365,19 +365,19 @@ This project is based on [Fuwari](https://github.com/saicaca/fuwari), which is l
 
 - **[Fuwari](https://github.com/saicaca/fuwari)** by saicaca - The original template that this project is based on. Thank you for creating such a beautiful and functional template.
 - **[Yukina](https://github.com/WhitePaper233/yukina)** - Thanks for providing design inspiration and creativity that helped shape this project. Yukina is an elegant blog template that demonstrates excellent design principles and user experience.
-- **[Firefly](https://github.com/CuteLeaf/Firefly)** - Thanks for providing excellent layout design ideas. The dual sidebar layout, article dual-column grid layout, and some widget designs and implementations have enriched Mizuki's interface.
-- **[Twilight](https://github.com/spr-aachen/Twilight)** - Thanks for providing inspiration and technical support. Twilight's dynamic wallpaper modes switching system, responsive design and transition effects have greatly enhanced the user experience of Mizuki.
+- **[Firefly](https://github.com/CuteLeaf/Firefly)** - Thanks for providing excellent layout design ideas. The dual sidebar layout, article dual-column grid layout, and some widget designs and implementations have enriched HuoLinBlog's interface.
+- **[Twilight](https://github.com/spr-aachen/Twilight)** - Thanks for providing inspiration and technical support. Twilight's dynamic wallpaper modes switching system, responsive design and transition effects have greatly enhanced the user experience of HuoLinBlog.
 
 ## 🍀 Contributors
 
-Thanks to all contributors for their contributions to this project. If you have any questions or suggestions, please submit an [Issue](https://github.com/LyraVoid/Mizuki/issues) or [Pull Request](https://github.com/LyraVoid/Mizuki/pulls).
+Thanks to all contributors for their contributions to this project. If you have any questions or suggestions, please submit an [Issue](https://github.com/PuppyHuoLin/Astro_HuoLinBlog/issues) or [Pull Request](https://github.com/PuppyHuoLin/Astro_HuoLinBlog/pulls).
 
-<a href="https://github.com/LyraVoid/Mizuki/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=LyraVoid/Mizuki" />
+<a href="https://github.com/PuppyHuoLin/Astro_HuoLinBlog/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=PuppyHuoLin/Astro_HuoLinBlog" />
 </a>
 
 ## ⭐ Star History
 
-## [![Star History Chart](https://api.star-history.com/svg?repos=LyraVoid/Mizuki&type=Date)](https://star-history.com/#LyraVoid/Mizuki&Date)
+## [![Star History Chart](https://api.star-history.com/svg?repos=PuppyHuoLin/Astro_HuoLinBlog&type=Date)](https://star-history.com/#PuppyHuoLin/Astro_HuoLinBlog&Date)
 
 ⭐ If you find this project helpful, please consider giving it a star!
