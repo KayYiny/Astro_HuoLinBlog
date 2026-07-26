@@ -26,6 +26,7 @@ export interface SidebarDisplayConfig {
 	hasComponents: {
 		mobile: boolean;
 		tablet: boolean;
+		desktop: boolean;
 	};
 }
 
@@ -46,7 +47,7 @@ function getSidebarDisplayProperty(
 	} else if (deviceType === "tablet") {
 		show = config.showConfig.tablet && config.hasComponents.tablet;
 	} else {
-		show = config.showConfig.desktop && config.hasComponents.tablet;
+		show = config.showConfig.desktop && config.hasComponents.desktop;
 	}
 
 	return {
@@ -123,6 +124,7 @@ export function getRightSidebarDisplayConfig(): SidebarDisplayConfig {
 		hasComponents: {
 			mobile: false,
 			tablet: false,
+			desktop: true,
 		},
 	};
 }
