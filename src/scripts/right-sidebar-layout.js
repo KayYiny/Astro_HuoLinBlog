@@ -82,10 +82,9 @@ function hideRightSidebar() {
 		// 设置显示为none以完全隐藏
 		rightSidebar.style.display = "none";
 
-		// 调整主网格布局
+		// 调整主网格布局 - 使用 CSS 类而不是内联样式
 		const mainGrid = document.getElementById("main-grid");
 		if (mainGrid) {
-			mainGrid.style.gridTemplateColumns = "17.5rem 1fr";
 			mainGrid.setAttribute("data-layout-mode", "grid");
 		}
 	}
@@ -103,10 +102,9 @@ function showRightSidebar() {
 		// 恢复显示
 		rightSidebar.style.display = "";
 
-		// 恢复主网格布局
+		// 恢复主网格布局 - 使用 CSS 类而不是内联样式
 		const mainGrid = document.getElementById("main-grid");
 		if (mainGrid) {
-			mainGrid.style.gridTemplateColumns = "";
 			mainGrid.setAttribute("data-layout-mode", "list");
 		}
 	}
