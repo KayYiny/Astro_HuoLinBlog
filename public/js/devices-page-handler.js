@@ -31,7 +31,7 @@
 
 	function createDeviceCardHTML(device, index, viewDetailsText) {
 		const imgSection =
-			'<div class="relative p-6 pb-0"><div class="flex justify-center items-center h-48 bg-linear-to-br from-(--card-bg) to-(--btn-regular-bg) rounded-lg overflow-hidden relative"><div class="absolute inset-0 bg-(--primary)/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div><img src="' +
+			'<div class="relative p-6 pb-0"><div class="flex justify-center items-center h-48 p-4 bg-linear-to-br from-(--card-bg) to-(--btn-regular-bg) rounded-lg overflow-hidden relative"><div class="absolute inset-0 bg-(--primary)/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div><img src="' +
 			escapeHtml(device.image) +
 			'" alt="' +
 			escapeHtml(device.name) +

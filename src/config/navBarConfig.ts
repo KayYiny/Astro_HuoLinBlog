@@ -141,21 +141,33 @@ export const navBarConfig: NavBarConfig = {
 			children: [
 				{
 					name: "GitHub",
-					url: "https://github.com/PuppyHuoLin/Astro_HuoLinBlog",
-					external: true, // 外部链接，新标签页打开
+					url: "https://github.com/KayYiny",
+					external: true,
 					icon: "fa7-brands:github",
 				},
 				{
 					name: "Bilibili",
-					url: "https://space.bilibili.com/701864046",
+					url: "https://space.bilibili.com/430552995",
 					external: true,
 					icon: "fa7-brands:bilibili",
 				},
 				{
-					name: "Gitee",
-					url: "https://gitee.com/PuppyHuoLin/Astro_HuoLinBlog",
+					name: "Linktree",
+					url: "https://link.huolin.puppyis.cool",
 					external: true,
-					icon: "mdi:git",
+					icon: "material-symbols:link",
+				},
+				{
+					name: "FileCodeBox",
+					url: "https://box.puppyis.cool/",
+					external: true,
+					icon: "material-symbols:folder-outline",
+				},
+				{
+					name: "Cloudreve",
+					url: "https://pan.puppyis.cool/",
+					external: true,
+					icon: "material-symbols:cloud-upload-outline",
 				},
 			],
 		},
