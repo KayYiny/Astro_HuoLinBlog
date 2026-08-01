@@ -2,15 +2,15 @@
 title: 博客功能完整示例
 published: 2024-01-15
 description: 这是一篇合并了所有示例文章的完整功能展示，包含 Markdown 语法、扩展功能、Mermaid 图表、视频嵌入、图片画廊等所有功能演示。
-image: ''
-tags: ["Demo", "Example", "Markdown", "HuoLinBlog", "Tutorial"]
-category: "Examples"
+image: ""
+tags: ["示例", "教程", "Markdown", "HuoLinBlog", "功能展示"]
+category: "示例"
 encrypted: true
 password: "998877"
 passwordHint: "密码是 998877"
 hideHomeContent: true
 alias: "combined-example"
-draft: false
+draft: true
 ---
 
 # 博客功能完整示例
@@ -41,20 +41,20 @@ draft: false
 
 #### 字段说明
 
-| 字段 | 说明 |
-|------|------|
-| `title` | 文章标题 |
-| `published` | 发布日期 |
-| `pinned` | 是否置顶到文章列表顶部 |
-| `priority` | 置顶优先级，值越小优先级越高（0, 1, 2...） |
-| `description` | 文章简短描述，显示在首页 |
-| `image` | 封面图片路径：以 `http://` 或 `https://` 开头使用网络图片；以 `/` 开头为 public 目录下的图片；无前缀为相对于 markdown 文件的路径 |
-| `tags` | 文章标签 |
-| `category` | 文章分类 |
-| `licenseName` | 文章内容许可证名称 |
-| `author` | 文章作者 |
-| `sourceLink` | 文章来源链接或参考 |
-| `draft` | 是否为草稿（草稿不会显示） |
+| 字段          | 说明                                                                                                                             |
+| ------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| `title`       | 文章标题                                                                                                                         |
+| `published`   | 发布日期                                                                                                                         |
+| `pinned`      | 是否置顶到文章列表顶部                                                                                                           |
+| `priority`    | 置顶优先级，值越小优先级越高（0, 1, 2...）                                                                                       |
+| `description` | 文章简短描述，显示在首页                                                                                                         |
+| `image`       | 封面图片路径：以 `http://` 或 `https://` 开头使用网络图片；以 `/` 开头为 public 目录下的图片；无前缀为相对于 markdown 文件的路径 |
+| `tags`        | 文章标签                                                                                                                         |
+| `category`    | 文章分类                                                                                                                         |
+| `licenseName` | 文章内容许可证名称                                                                                                               |
+| `author`      | 文章作者                                                                                                                         |
+| `sourceLink`  | 文章来源链接或参考                                                                                                               |
+| `draft`       | 是否为草稿（草稿不会显示）                                                                                                       |
 
 ### 文章文件存放位置
 
@@ -90,6 +90,7 @@ src/content/posts/
 ```
 
 **文件夹方案的优势：**
+
 - ✅ RSS 可以正常构建图片路径
 - ✅ 图片与文章一同打包部署
 - ✅ 便于迁移和备份
@@ -98,9 +99,10 @@ src/content/posts/
 - ✅ 隐私性好，零额外成本
 
 **图片路径写法：**
+
 ```markdown
-![图片描述](image1.png)        # 相对于 index.md
-![图片描述](./image1.png)       # 同上
+![图片描述](image1.png) # 相对于 index.md
+![图片描述](./image1.png) # 同上
 ![图片描述](/images/photo.webp) # public 目录下的图片
 ```
 
@@ -121,6 +123,7 @@ permalink: "my-special-article"
 生成的 URL：`https://your-site.com/posts/my-special-article`
 
 **与 alias 的区别：**
+
 - `permalink`：7.2+ 新功能，专门用于 SEO 优化
 - `alias`：兼容旧版本，功能类似
 
@@ -137,12 +140,14 @@ alias: "my-special-article"
 ```
 
 设置别名后：
+
 - 文章可通过自定义 URL 访问（例如 `/posts/my-special-article/`）
 - 默认的 `/posts/{slug}/` URL 仍然有效
 - RSS/Atom 订阅将使用自定义别名
 - 所有内部链接将自动使用自定义别名
 
 **注意事项：**
+
 - 别名不应包含 `/posts/` 前缀（会自动添加）
 - 避免在别名中使用特殊字符和空格
 - 建议使用小写字母和连字符以获得最佳 SEO 效果
@@ -165,12 +170,12 @@ hideHomeContent: true
 
 #### 字段说明
 
-| 字段 | 必填 | 说明 |
-|------|------|------|
-| `encrypted` | 是 | 设置为 `true` 启用密码保护 |
-| `password` | 是 | 解锁文章的密码 |
-| `passwordHint` | 否 | 显示在密码输入框下方的提示 |
-| `hideHomeContent` | 否 | 隐藏公开摘要，显示为"该文章已加密"。当设置了 `password` 时默认为 `true` |
+| 字段              | 必填 | 说明                                                                    |
+| ----------------- | ---- | ----------------------------------------------------------------------- |
+| `encrypted`       | 是   | 设置为 `true` 启用密码保护                                              |
+| `password`        | 是   | 解锁文章的密码                                                          |
+| `passwordHint`    | 否   | 显示在密码输入框下方的提示                                              |
+| `hideHomeContent` | 否   | 隐藏公开摘要，显示为"该文章已加密"。当设置了 `password` 时默认为 `true` |
 
 #### 加密原理
 
@@ -965,6 +970,7 @@ Markdown 使用类似链接的图片语法，支持两种样式：行内和引�
     ![图片描述 w-80%](/path/to/img.jpg)
 
 参数说明：
+
 - `w-50%`：设置图片宽度为 50%（可以是任意百分比值）
 - `"图片标题"`：可选的标题/说明文字
 
@@ -1082,11 +1088,11 @@ Markdown 为以下字符提供反斜杠转义：
 
 ### 编辑器快捷键 (Keyboard Shortcuts)
 
-| 功能 | Windows/Linux | Mac |
-|------|--------------|-----|
-| 加粗 (Bold) | Ctrl + B | ⌘ + B |
-| 斜体 (Italic) | Ctrl + I | ⌘ + I |
-| 链接 (Link) | Ctrl + K | ⌘ + K |
+| 功能          | Windows/Linux | Mac   |
+| ------------- | ------------- | ----- |
+| 加粗 (Bold)   | Ctrl + B      | ⌘ + B |
+| 斜体 (Italic) | Ctrl + I      | ⌘ + I |
+| 链接 (Link)   | Ctrl + K      | ⌘ + K |
 
 ### 行内 HTML (Inline HTML)
 
@@ -1273,7 +1279,7 @@ sequenceDiagram
     服务器->>数据库: 查询用户凭证
     数据库-->>服务器: 返回用户数据
     服务器-->>网页应用: 返回认证结果
-    
+
     alt 认证成功
         网页应用->>用户: 显示欢迎页面
         网页应用->>服务器: 请求用户数据
@@ -1296,22 +1302,22 @@ gantt
     title 网站开发项目时间表
     dateFormat  YYYY-MM-DD
     axisFormat  %m/%d
-    
+
     section 设计阶段
     需求分析      :a1, 2023-10-01, 7d
     UI 设计       :a2, after a1, 10d
     原型创建      :a3, after a2, 5d
-    
+
     section 开发阶段
     前端开发      :b1, 2023-10-20, 15d
     后端开发      :b2, after a2, 18d
     数据库设计    :b3, after a1, 12d
-    
+
     section 测试阶段
     单元测试      :c1, after b1, 8d
     集成测试      :c2, after b2, 10d
     用户验收测试  :c3, after c2, 7d
-    
+
     section 部署
     生产部署      :d1, after c3, 3d
     发布          :milestone, after d1, 0d
@@ -1332,7 +1338,7 @@ classDiagram
         +登出()
         +更新资料()
     }
-    
+
     class 文章 {
         +String 标题
         +String 内容
@@ -1342,21 +1348,21 @@ classDiagram
         +编辑()
         +删除()
     }
-    
+
     class 评论 {
         +String 内容
         +Date 评论日期
         +添加评论()
         +删除评论()
     }
-    
+
     class 分类 {
         +String 名称
         +String 描述
         +添加文章()
         +移除文章()
     }
-    
+
     用户 "1" -- "*" 文章 : 撰写
     用户 "1" -- "*" 评论 : 发表
     文章 "1" -- "*" 评论 : 拥有
@@ -1370,14 +1376,14 @@ classDiagram
 ```mermaid
 stateDiagram-v2
     [*] --> 草稿
-    
+
     草稿 --> 审核中 : 提交
     审核中 --> 草稿 : 拒绝
     审核中 --> 已批准 : 批准
     已批准 --> 已发布 : 发布
     已发布 --> 已归档 : 归档
     已发布 --> 草稿 : 撤回
-    
+
     state 已发布 {
         [*] --> 活跃
         活跃 --> 隐藏 : 临时隐藏
@@ -1385,7 +1391,7 @@ stateDiagram-v2
         活跃 --> [*]
         隐藏 --> [*]
     }
-    
+
     已归档 --> [*]
 ```
 
@@ -1443,12 +1449,14 @@ category: "Technology"
 ```
 
 设置别名后：
+
 - 文章将可通过自定义 URL 访问（例如 `/posts/my-special-article/`）
 - 默认的 `/posts/{slug}/` URL 仍然有效
 - RSS/Atom 订阅将使用自定义别名
 - 所有内部链接将自动使用自定义别名
 
 **重要说明：**
+
 - 别名不应包含 `/posts/` 前缀（会自动添加）
 - 避免在别名中使用特殊字符和空格
 - 建议使用小写字母和连字符以获得最佳 SEO 效果
@@ -1474,16 +1482,17 @@ hideHomeContent: true
 
 ### 字段说明
 
-| 字段 | 必填 | 描述 |
-|------|------|------|
-| `encrypted` | 是 | 设置为 `true` 启用密码保护 |
-| `password` | 是 | 解锁文章的密码 |
-| `passwordHint` | 否 | 显示在密码输入框下方的提示 |
-| `hideHomeContent` | 否 | 隐藏公开摘要，显示为"该文章已加密"。当设置了 `password` 时默认为 `true`。设置为 `false` 以显示正常摘要。 |
+| 字段              | 必填 | 描述                                                                                                     |
+| ----------------- | ---- | -------------------------------------------------------------------------------------------------------- |
+| `encrypted`       | 是   | 设置为 `true` 启用密码保护                                                                               |
+| `password`        | 是   | 解锁文章的密码                                                                                           |
+| `passwordHint`    | 否   | 显示在密码输入框下方的提示                                                                               |
+| `hideHomeContent` | 否   | 隐藏公开摘要，显示为"该文章已加密"。当设置了 `password` 时默认为 `true`。设置为 `false` 以显示正常摘要。 |
 
 ### 解锁框外观
 
 解锁框显示：
+
 - 主题主色的锁图标
 - 文章标题 "Password Protected"
 - 要求输入密码的描述
@@ -1532,13 +1541,13 @@ draft: false
 
 在 `:::grid` 和结束 `:::` 之间直接写 Markdown 图片：
 
-````markdown
+```markdown
 :::grid
 ![图片描述](./image-1.webp)
 
 ![图片描述](./image-2.webp)
 :::
-````
+```
 
 每张图片必须单独成段，图片之间有空行。画廊中只保留图片；段落、列表和代码块写在容器外面。
 
@@ -1546,15 +1555,15 @@ draft: false
 
 在开括号后的花括号中写入所有参数：`:::grid{parameter="value"}`。
 
-| 参数 | 允许的值 | 默认值 | 用途 |
-| --- | --- | --- | --- |
-| `columns` | `1` 到 `6` 的整数 | `3` | 桌面端每行的列数。无效值回退为 `3`。 |
-| `aspect` | 正数比例，如 `16/9`、`3/4`、`1/1` | `16/10` | 显示的卡片比例，不是原始图片比例。 |
-| `fit` | `cover`、`contain` | `cover` | 图片适应模式。`cover` 裁剪填充；`contain` 保留完整图片，可能留空。 |
+| 参数      | 允许的值                          | 默认值  | 用途                                                               |
+| --------- | --------------------------------- | ------- | ------------------------------------------------------------------ |
+| `columns` | `1` 到 `6` 的整数                 | `3`     | 桌面端每行的列数。无效值回退为 `3`。                               |
+| `aspect`  | 正数比例，如 `16/9`、`3/4`、`1/1` | `16/10` | 显示的卡片比例，不是原始图片比例。                                 |
+| `fit`     | `cover`、`contain`                | `cover` | 图片适应模式。`cover` 裁剪填充；`contain` 保留完整图片，可能留空。 |
 
 完整示例：
 
-````markdown
+```markdown
 :::grid{columns="3" aspect="16/9" fit="cover"}
 ![第一张图片](./image-1.webp "可选标题")
 
@@ -1562,7 +1571,7 @@ draft: false
 
 ![第三张图片](./image-3.webp "可选标题")
 :::
-````
+```
 
 :::grid{columns="3" aspect="16/9" fit="cover"}
 ![参数示例：第一张风景图](/images/demos/image-grid-demo/landscape-1.webp "风景标题 1")
@@ -1804,4 +1813,4 @@ draft: false
 
 ---
 
-*本文合并了 HuoLinBlog 主题的所有示例文章，展示了博客的完整功能。*
+_本文合并了 HuoLinBlog 主题的所有示例文章，展示了博客的完整功能。_
